@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build output (regenerate with scripts/build_app.sh)
+build/
+dist/
+*.spec
+assets/*.iconset/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editors / tools
+.idea/
+.vscode/
+.claude/
+
+# Local secrets and config -- never commit credentials
+.env
+*.pem
+id_rsa*
+id_ed25519*
+hosts.json

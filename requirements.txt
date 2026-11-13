@@ -1,0 +1,6 @@
+PySide6>=6.7
+asyncssh>=2.14
+qasync>=0.27
+keyring>=24
+pytest
+pytest-asyncio
